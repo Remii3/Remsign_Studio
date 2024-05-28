@@ -76,5 +76,5 @@
 }
 
 .active {
-  @apply md:text-zinc-800/80 max-md:bg-zinc-800/5;
+  @apply md:text-sky-500/60 max-md:bg-sky-500/5;
 }
