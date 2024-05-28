@@ -1,8 +1,3 @@
-"use client";
-import { generateThree } from "@/lib/utils";
-import React from "react";
-import { useEffect } from "react";
-
 const Primary = () => {
   return (
     <>
