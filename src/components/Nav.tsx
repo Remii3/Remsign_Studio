@@ -3,15 +3,8 @@
 import { Link } from "react-scroll";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 import { useState } from "react";
-import { AlignJustify, Menu } from "lucide-react";
-
-const tabs = [
-  { id: "o-nas", title: "O nas", path: "#" },
-  { id: "oferta", title: "Oferta", path: "#" },
-  { id: "standard-stron", title: "Standard stron", path: "#" },
-  { id: "faq", title: "FAQ", path: "#" },
-  { id: "kontakt", title: "Kontakt", path: "#" },
-];
+import { AlignJustify } from "lucide-react";
+import { tabs } from "../data/tabs";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +22,7 @@ const Nav = () => {
               href="#"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={600}
               className="text-nowrap inline-block rounded-3xl text-lg text-zinc-800 px-4 py-2 hover:text-zinc-800/70 transition-colors ease-out"
             >
               {tab.title}
@@ -50,7 +43,7 @@ const Nav = () => {
                   href="#"
                   spy={true}
                   smooth={true}
-                  duration={500}
+                  duration={600}
                   className="text-lg rounded-3xl hover:bg-zinc-800/5 text-zinc-800 px-8 py-4 block transition ease-out"
                   onClick={() => setIsOpen(false)}
                 >
