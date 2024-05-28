@@ -1,7 +1,7 @@
 const Primary = () => {
   return (
     <>
-      <div className="w-1/2">
+      <div className="md:w-1/2">
         <h1 className="text-6xl mb-4 font-semibold">
           Witaj w
           <br />
